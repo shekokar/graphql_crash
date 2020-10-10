@@ -1,0 +1,30 @@
+{
+  "name": "spacex_launch_stats",
+  "version": "1.0.0",
+  "description": "App that lists spacex launches",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "server": "nodemon server.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/shekokar/graphql_crash.git"
+  },
+  "author": "Sarang Shekokar",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/shekokar/graphql_crash/issues"
+  },
+  "homepage": "https://github.com/shekokar/graphql_crash#readme",
+  "dependencies": {
+    "axios": "^0.20.0",
+    "express": "^4.17.1",
+    "express-graphql": "^0.11.0",
+    "graphql": "^15.3.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.4"
+  }
+}
